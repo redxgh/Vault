@@ -1,0 +1,61 @@
+.container {
+  width: 30vh;
+  height: fit-content;
+  border: 1px solid black;
+  padding-bottom: 1vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+}
+.container:hover {
+  background-color: rgb(212, 212, 212);
+}
+.title {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 3vh;
+}
+.desc {
+  font-size: 2.5vh;
+}
+img {
+  width: 30vh;
+  height: 20vh;
+}
+a {
+  all: unset;
+}
+.utility-btn {
+  padding: 1vh;
+  cursor: pointer;
+}
+.utl-container {
+  display: flex;
+  flex-direction: row;
+  gap: 1vh;
+}
+.del-btn {
+  border: 1px solid red;
+  color: red;
+  background-color: white;
+}
+.del-btn:hover {
+  background-color: rgb(255, 181, 181);
+}
+.buttons-cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1vh;
+}
+.mod-btn {
+  border: 1px solid rgb(17, 255, 0);
+  color: rgb(37, 190, 23);
+  background-color: white;
+}
+.mod-btn:hover {
+  background-color: rgb(181, 255, 192);
+}

@@ -1,0 +1,55 @@
+.modal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.modal-container {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  height: fit-content;
+  padding: 0 2vh 5vh 2vh;
+  color: black;
+  text-transform: capitalize;
+}
+.modal-header {
+  display: grid;
+  grid-template-columns: 10fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 10vh;
+}
+.close-icon {
+  cursor: pointer;
+  margin-top: 4vh;
+}
+.ipass,
+.iuser {
+  padding: 2vh;
+  background: none;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid #0db8de;
+  color: black;
+  margin-bottom: 2vh;
+}
+.login-btn {
+  margin-top: 2vh;
+}
+.Alert {
+  width: auto;
+  height: fit-content;
+  background-color: #df4759;
+  color: white;
+  margin-bottom: 1vh;
+  display: flex;
+  font-weight: bold;
+  font-family: fantasy;
+  justify-content: center;
+  align-items: center;
+  padding: 1vh;
+}
+.noAppear {
+  display: none;
+}

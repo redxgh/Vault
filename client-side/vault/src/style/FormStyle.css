@@ -1,0 +1,45 @@
+#form-wrapper {
+  width: fit-content;
+  height: fit-content;
+  padding: 4vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.5);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+.form-group
+{
+    margin: 3vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.5fr 2fr;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: fit-content;
+    width: 40vh;
+}
+.button-group
+{
+    display: flex;
+    flex-direction: row;
+    gap: 2vh;
+}
+textarea
+{
+    width: 100%;
+    height: 12vh;
+}
+input
+{
+    margin-top: 2vh;
+}
+.add-btn
+{
+    width: fit-content;
+}

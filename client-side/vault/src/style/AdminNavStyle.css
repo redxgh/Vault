@@ -1,0 +1,129 @@
+#logo-elfou {
+  width: 7vh;
+  height: 7vh;
+}
+#nav-b {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 7vh;
+  padding: 1vh;
+  display: grid;
+  grid-template-columns: 2.5fr 5fr 1fr;
+  background-color: #e9e7e5;
+  z-index: 2;
+}
+.search-container {
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+#search-bar {
+  margin: 0 auto;
+  width: 60vh;
+  height: 6vh;
+  padding: 0 2vh;
+  font-size: 1rem;
+  border: 0.1vh solid #d0cfce;
+  outline: none;
+}
+#search-bar:focus {
+  border: 1px solid #008abf;
+  transition: 0.35s ease;
+  color: #008abf;
+}
+#search-bar:focus::-webkit-input-placeholder {
+  transition: opacity 0.45s ease;
+  opacity: 0;
+}
+#search-bar:focus::-moz-placeholder {
+  transition: opacity 0.45s ease;
+  opacity: 0;
+}
+#search-bar:focus:-ms-placeholder {
+  transition: opacity 0.45s ease;
+  opacity: 0;
+}
+.search-icon {
+  width: 4vh;
+  height: 4vh;
+  border: 0.1vh solid #d0cfce;
+  padding: 1vh;
+}
+#log-btn {
+  width: 13vh;
+  height: fit-content;
+  font-size: larger;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1vh;
+  font-size: 2vh;
+  font-weight: bold;
+}
+#log-btn img {
+  width: 3vh;
+  height: 3vh;
+}
+#add-btn {
+  width: 13vh;
+  height: fit-content;
+  font-size: larger;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1vh;
+  font-size: 2vh;
+  font-weight: bold;
+}
+.Login {
+  display: flex;
+  flex-direction: row;
+  gap: 1vh;
+}
+@media screen and (max-width: 600px) {
+  #search-bar {
+    margin: none;
+    width: 30vh;
+    height: 5vh;
+    padding: 0 2vh;
+    font-size: 1rem;
+    border: 0.1vh solid #d0cfce;
+    outline: none;
+  }
+  .search-icon {
+    display: none;
+  }
+  #logo-elfou {
+    width: 5vh;
+    height: 5vh;
+  }
+  #log-btn,
+  #add-btn {
+    width: 8vh;
+    height: fit-content;
+    font-size: x-small;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1vh;
+    font-weight: bold;
+  }
+  #nav-b {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 5vh;
+    padding: 1vh;
+    display: grid;
+    grid-template-columns: 2fr 7fr 1fr;
+    gap: 2vh;
+    background-color: #e9e7e5;
+    z-index: 2;
+  }
+}

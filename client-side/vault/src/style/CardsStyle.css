@@ -1,0 +1,19 @@
+.card-Container {
+  display: flex;
+  margin-top: 9vh;
+  justify-content: center;
+  align-items: center;
+  padding: 3vh;
+}
+.item {
+  list-style-type: none;
+}
+.container-ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: fit-content;
+  justify-content: center;
+  align-items: center;
+  gap: 2vh;
+}

@@ -1,0 +1,47 @@
+.body-cont {
+  background-image: url("../images/elfouladh.jpg");
+  background: no-repeat cover;
+  min-width: 100vh;
+  min-height: 100vh;
+}
+.container-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2vh;
+  border: 1px solid black;
+  width: fit-content;
+  height: fit-content;
+  padding: 2vh;
+  background: rgba(255, 255, 255, 0.38);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10.7px);
+  -webkit-backdrop-filter: blur(10.7px);
+}
+#normal-pass,
+#hashed-pass {
+  padding: 1vh;
+  border-bottom: 0.4vh solid rgb(112, 112, 255);
+  outline: 0;
+  width: 90%;
+}
+.btn {
+  padding: 1vh;
+  background-color: rgb(206, 206, 255);
+  outline: none;
+  width: 20vh;
+}
+.btn:hover {
+  background-color: rgb(128, 128, 255);
+}
+.input,
+.input:focus,
+.btn,
+.btn:focus {
+  border-width: 0px;
+  outline: 0; /* I have also tried outline:none */
+  box-shadow: none;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+}
